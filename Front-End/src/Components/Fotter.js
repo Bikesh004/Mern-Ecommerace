@@ -3,7 +3,7 @@ import React from 'react'
 const Fotter = () => {
   return (
     <div>
-      footer
+      footer we can add multiple things
     </div>
   )
 }
