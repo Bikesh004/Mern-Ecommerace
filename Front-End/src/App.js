@@ -1,11 +1,17 @@
-
-import './App.css';
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import Header from "./Components/Header";
+import Fotter from "./Components/Fotter";
 
 function App() {
   return (
-    <div  className="text-red-300">
-      mern start
-    </div>
+    <>
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <Fotter />
+    </>
   );
 }
 
